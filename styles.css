@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1920x1080/?landscape')
+}
+
+.card {
+    padding: 2em;
+    border-radius: 2em;
+    width: 100%;
+    max-width: 40em;
+    margin: 1em;
+    background: #000000d0;
+    color: white;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .125em;
+}
+
+input {
+    width: calc(100% - 3.5rem);
+    height: 3rem;
+    border-radius: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 1.5em;
+
+}
+
+button {
+    margin-left: .5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #7c7c7c9b
+}
+
+input, button {
+    background: #7c7c7c4b;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.weather {
+    padding: 0;
+    margin: 0;
+}
+
+.city {
+    font-size: 3rem;
+    
+}
+
+.temperature {
+    font-size: 4rem;
+}
+
+.weather-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+.weather-description > * {
+    flex-basis: 100%;
+    margin: 0 .5rem;
+}
+
+
