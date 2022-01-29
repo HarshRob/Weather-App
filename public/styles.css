@@ -63,27 +63,18 @@ input, button {
 .city {
     font-size: 3rem;
     margin: 0;
-    margin-top: 2rem;
 }
 
 .temperature {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0;
 }
-
-
 
 .temp {
     font-size: 4rem;
     margin: 0;
 }
-
-.icon {
-    /* height: 4.6875rem; */
-}
-
 
 .weather-description {
     display: flex;
