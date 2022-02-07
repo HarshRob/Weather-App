@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(express.static('public'))
 
 app.post('/weather', (req, res) => {
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${req.body.name}&units=imperial&appid=${OPENWEATHERMAP_API_KEY}`
+    const url = `http://api.openweathermap.org/data/2.5/weather?q=${req.body.name}&units=${req.body.units}&appid=${OPENWEATHERMAP_API_KEY}`
     axios({
         url: url,
         responseType: 'json'
